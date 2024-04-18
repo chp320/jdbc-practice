@@ -25,4 +25,4 @@
 ### DataSource
 - 커넥션 획득 위해서 Java의 DataSource 를 사용 (표준 인터페이스)
 - 실습은 Hikari CP 의 DataSource 사용
-- 출처) https://velog.io/@hyejinjeong9999/커넥션-풀
+  - 출처) https://velog.io/@hyejinjeong9999/커넥션-풀
