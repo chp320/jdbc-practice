@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e764ef42-cea5-4fc5-b24f-28c19c3e46ff" name="Changes" comment="간단한 jdbc 프로그래밍 구현">
+    <list default="true" id="e764ef42-cea5-4fc5-b24f-28c19c3e46ff" name="Changes" comment="UserDao 에서 처리하던 커넥션 연결 기능 (getConnection메서드)을 ConnectionManager 로 이관 + 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PreparedStatementSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RowMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -109,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713448557689</updated>
-      <workItem from="1713448559794" duration="6005000" />
+      <workItem from="1713448559794" duration="8217000" />
     </task>
     <task id="LOCAL-00001" summary="JDBC 실습 위한 최초 환경 구성">
       <created>1713448913044</created>
@@ -139,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713452203796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UserDao 에서 처리하던 커넥션 연결 기능 (getConnection메서드)을 ConnectionManager 로 이관 + 리팩토링">
+      <created>1713532620837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713532620837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +170,7 @@
     <MESSAGE value="JDBC 실습 위한 최초 환경 구성" />
     <MESSAGE value="JDBC, DB 커넥션 풀 개념 정리" />
     <MESSAGE value="간단한 jdbc 프로그래밍 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="간단한 jdbc 프로그래밍 구현" />
+    <MESSAGE value="UserDao 에서 처리하던 커넥션 연결 기능 (getConnection메서드)을 ConnectionManager 로 이관 + 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserDao 에서 처리하던 커넥션 연결 기능 (getConnection메서드)을 ConnectionManager 로 이관 + 리팩토링" />
   </component>
 </project>
